@@ -1,0 +1,35 @@
+body {
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	background-position: center;
+}
+h1 {
+  font-size: 60px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 52, 89) 0%,
+    rgb(0, 168, 232) 90%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.header,
+.container {
+  display: flex;
+  justify-content: center;
+}
+.inputField {
+	padding: 10px;
+	width: 40%;
+	border: none;
+	border-radius: 5px;
+}
+.btn {
+	padding: 20px;
+	border: none;
+	background: #006696;
+	border-radius: 5px;
+}
