@@ -34,5 +34,25 @@ h1 {
   border-radius: 5px;
 }
 .toDoAdded {
-	
+	background: #00a8e8;
+	list-style: none;
+	height: 50px;
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	border-bottom: 1px solid #d8d0ac;
+	border-radius: 5px;
+}
+.toDoContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.toDoCompleted{
+	text-decoration: line-through;
+	color: black;
+	background: #4d504c;
+	transition: all 600ms ease-in-out;
+	font-weight: bold;
 }
